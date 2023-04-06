@@ -1,0 +1,53 @@
+header {
+    color:white;
+    background-color: #0B1C51;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+#menu {
+    display: flex;
+    text-decoration: none;
+    font-family: Montserrat;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+ul {
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+@media all and (min-width: 480px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    h1 {
+        font-size: 48px;
+        text-align: left;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+
+}
